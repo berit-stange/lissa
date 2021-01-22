@@ -108,30 +108,24 @@ button:focus,
     font-size: var(--font-small);
     font-weight: var(--font-heavy);
     text-decoration: none;
-/*    position: relative;*/
-/*    top: 5px;*/
-/*    object-position: center;*/
 }
 
 /* -------------------------------2020-12-12----*/
 
 .profile__portrait {
   float: left;
-  width: 100%;
-/*  margin-right: 400px;*/
-/*  margin-left: 100px;  */
+  width: 300px;
   margin-top: 100px;
   border-radius: 50%;
 }
 
 .profile {
   max-width: 80%;
+  min-height: 80vh;
   margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  min-height: 70vh;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
 }
 
 .profile__text {
@@ -147,11 +141,11 @@ button:focus,
 
 .page-header {
   background-color: var(--primary-color);
-  display: flex;
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
   width: 100%;
   padding: 20px;
-  padding-bottom: 0px;
-/*  border-bottom: 1px solid;*/
   border-color: var(--primary-color); 
 }
 
@@ -192,13 +186,7 @@ button:focus,
 }
 .main-content__center {
     width: 100%;
-/*    max-width: 600px;*/
     margin: 0 auto;
-/*    text-align: center;*/
-    padding-top: 50px;
-    padding-bottom: 20px;
-/*    min-height: 80vh;*/
-/*    vertical-align: middle;*/
 }
 /* ------------------------------------footer----*/
 .page-footer {
