@@ -130,7 +130,7 @@ button:focus,
 
 .profile__text {
     flex: 1 1 100px;
-    max-width: 800px;
+    max-width: 650px;
     display: block;
     vertical-align: middle;
 }
